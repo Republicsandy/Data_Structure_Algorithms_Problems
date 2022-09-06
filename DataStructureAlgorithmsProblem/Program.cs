@@ -26,7 +26,9 @@ namespace DataStructureAlgorithmsProblem
                     Output.BubbleSorts();
                     Console.WriteLine("After sorting:");
                     Output.DisplayElements();
-                    Console.ReadKey();
+                    break;
+                case 2:
+                    InsertionSort.sort();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection. Enter a valid option:");
