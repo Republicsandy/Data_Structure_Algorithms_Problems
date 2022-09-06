@@ -36,6 +36,10 @@ namespace DataStructureAlgorithmsProblem
                     int Outputs = str.Length;
                     Permutation.Permute(str, 0, Outputs - 1);
                     break;
+                case 4:
+                    Anagram anagram = new Anagram();
+                    anagram.Check();
+                    break;
                 default:
                     Console.WriteLine("Invalid Selection. Enter a valid option:");
                     break;
