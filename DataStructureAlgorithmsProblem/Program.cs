@@ -30,6 +30,12 @@ namespace DataStructureAlgorithmsProblem
                 case 2:
                     InsertionSort.sort();
                     break;
+                case 3:
+                    Permutation permutation = new Permutation();
+                    String str = "Shreya";
+                    int Outputs = str.Length;
+                    Permutation.Permute(str, 0, Outputs - 1);
+                    break;
                 default:
                     Console.WriteLine("Invalid Selection. Enter a valid option:");
                     break;
